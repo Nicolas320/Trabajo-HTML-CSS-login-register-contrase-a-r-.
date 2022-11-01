@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+/* EDIT "AÑADIR FONDO Y EDITAR IMAGEN */
+body{
+    margin: 50px;
+    padding: 50px;
+    background: url(/IMG/fondoimagen.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'DynaPuff', cursive;
+}
+
+/* EDITS DE CUADRO */
+.login-box{
+    width: 450px;
+    height: 500px;
+    background-color:rgb(0, 0, 0);
+    color: #fa0053;
+    top:29%;
+    left: 35%;
+    display: flex;
+    position: absolute;
+    transform: (-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border-radius: 20%;
+}
+
+/* EDITAR AVATAR DE LOGIN */
+.login-box .avatar
+{
+width: 350px;
+height: 250px;
+border-radius: 0%;
+position:absolute;
+top: -170px;
+left: calc(70% -10px);
+right: 40px; ;
+}
+
+/*   EDIT PALABRA "LOGIN"   */
+.edit-log{
+    margin: 0%;
+    padding: 0 0 00px;
+    text-align: center;
+    color: #fa0053;
+    font-size:1.7em;
+    text-shadow: 3px 5px 5px rgb(255, 255, 255);
+    padding: 50px;
+    font-size: 45px;
+
+}
+
+/* EDIT text "Username-Pasword" */
+.login-box label{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    text-shadow: 3px 5px 5px rgb(253, 253, 253);
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 0px;
+    /* position: absolute; */
+    
+}
+/* EDIT "CUADROS DE INGRESO" - "TEXT" */
+
+.login-box{
+    margin: 0%;
+    padding: 5;
+    font-weight: bold;
+    display: block;
+    background-image: linear-gradient(#ff58b4
+    , rgb(214, 214, 214));
+}
+/*  EDIT "CUADROS DE TEXTO" - "TAMAÑO" */
+.login-box input{
+    border-radius: 20px;   
+    width: 400px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-family: 'DynaPuff', cursive;
+}
+/* EDIT=Ingresar "Ingresar+Colores"*/
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 45px;
+    background-color: rgb(207, 61, 183);
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    border-radius: 50px;
+    font-family:'DynaPuff', cursive;
+    
+}
+/* EDIT "COLOR CURSOR-INGRESAR"*/
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(57, 43, 255), rgb(255, 78, 231))
+    
+}
+/* EDITOR "REGISTRAR", "OLVIDE CONTRASEÑA"*/
+.login-box a{
+    border: auto;
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    font-family:'DynaPuff', cursive;
+    border-radius: 50%;
+    text-shadow: 3px 5px 5px rgb(255, 255, 255);
+}
+
+
+
